@@ -553,6 +553,43 @@ header {
    }
 }
 
+/* ================== LOGIN PAGE =================== */
+.login-container {
+   @media (min-width: $lg) {
+      background: linear-gradient(90deg, #ffffff 60%, #E4E6EB 40%);
+      width: 100vw;
+      height: 100vh;
+   }
+}
+
+.page-login {
+   height: 100vh;
+
+   .btn-login {
+      @include btnPrimary;
+   }
+
+   .section-left {
+      h1 {
+         font-family: $custom;
+         font-weight: bold;
+         font-size: 50px;
+         text-align: left;
+         color: #071c4d;
+      }
+   }
+
+   .section-right {
+      a {
+         font-weight: 300;
+         text-decoration: underline;
+         font-size: 16px;
+         text-align: center;
+         color: #b2b2b2;
+      }
+   }
+}
+
 /* ================== BACK TO TOP =================== */
 .navbar.scrolled {
    background-color: #b8bedd !important;
